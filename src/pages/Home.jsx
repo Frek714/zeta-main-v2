@@ -137,7 +137,7 @@ const Home = () => {
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ ease: "backInOut", duration: 1, delay: 0.4 }}
             viewport={{ once: true }}
-            className="col-span-4 row-span-2 bg-yellow-600"
+            className="col-span-4 row-span-2 col-start-5 row-start-5 lg:row-start-4 bg-yellow-600"
           >
             <p>test</p>
           </motion.div>
